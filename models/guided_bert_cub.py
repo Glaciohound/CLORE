@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from transformers.file_utils import ModelOutput
-from models import guided_program
+from models import guided_program_cub as guided_program
 
 
 def sinusoidal_init(num_embeddings: int, embedding_dim: int):
